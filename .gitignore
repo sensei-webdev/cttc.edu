@@ -1,0 +1,12 @@
+# Node modules and environment
+node_modules/
+desktop.ini
+
+# Build tools and configs
+package-lock.json
+package.json
+postcss.config.js
+tailwind.config.js
+
+# Development source files
+src/
