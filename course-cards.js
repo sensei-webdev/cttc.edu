@@ -76,7 +76,7 @@ const exploreCards = [
     },
     {
         link: "#",
-        img: "https://github.com/AbuBakar5173/imagesDataBase/blob/main/GraphicDesign.png?raw=true",
+        img: "https://github.com/AbuBakar5173/imagesDataBase/blob/main/GraphicDesign.webp?raw=true",
         h3: "Certificate Course in Graphic Design",
         duration: "12 months",
         level: "Beginner",
@@ -87,7 +87,7 @@ const exploreCards = [
     },
     {
         link: "#",
-        img: "https://github.com/AbuBakar5173/imagesDataBase/blob/main/EnglishTyping.png?raw=true",
+        img: "https://github.com/AbuBakar5173/imagesDataBase/blob/main/EnglishTyping.webp?raw=true",
         h3: "Certificate Course in English Typing",
         duration: "3 months",
         level: "Beginner",
@@ -120,7 +120,7 @@ const exploreCards = [
     },
     {
         link: "#",
-        img: "https://github.com/AbuBakar5173/imagesDataBase/blob/main/cttc-Excel.png?raw=true",
+        img: "https://github.com/AbuBakar5173/imagesDataBase/blob/main/cttc-Excel.webp?raw=true",
         h3: "Certificate Course in Advance Excel",
         duration: "12 months",
         level: "Beginner",
@@ -131,7 +131,7 @@ const exploreCards = [
     },
     {
         link: "#",
-        img: "https://github.com/AbuBakar5173/imagesDataBase/blob/main/cttc-tally.png?raw=true",
+        img: "https://github.com/AbuBakar5173/imagesDataBase/blob/main/cttc-tally.webp?raw=true",
         h3: "Certificate Course in TallyPrime & GST",
         duration: "12 months",
         level: "Beginner",
