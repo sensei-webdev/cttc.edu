@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/build/tailwind.css">
+    <link rel="stylesheet" href="https://cdn.hugeicons.com/font/hgi-stroke-rounded.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="https://github.com/AbuBakar5173/imagesDataBase/blob/main/CT.png?raw=true" type="image/png">
+    <title>CT Training Center</title>
+    <style>
+        .swiper-slide {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body class="bg-[#111427] text-white font-Poppins">
+    <!-- Top Layers -->
+    <div id="colorLayer" class="w-full h-full absolute top-0 right-0 blur-[6rem] md:blur-[15rem] -z-50">
+        <div
+            class="circle1 bg-blue-400 w-[8rem] h-[4rem] md:w-[16rem] md:h-[16rem] shadow-3xl absolute top-30 left-0 md:top-0">
+        </div>
+        <div
+            class="circle2 bg-purple-400 w-[8rem] h-[4rem] md:w-[16rem] md:h-[16rem] shadow-3xl absolute bottom-50 right-0 md:bottom-0">
+        </div>
+    </div>
+    <div id="layer"
+        class="hidden md:hidden bg-black opacity-60 w-full h-full z-10 absolute top-0 right-0 backdrom-blur-md"></div>
+
+    <nav
+        class="flex justify-between items-center backdrop-blur-sm w-[95%] md:w-full max-w-[1440px] mx-auto mt-2 bg-[rgba(0,0,0,0.4)] px-5 py-2 rounded-full text-white font-bold">
+        <a href="#" id="logo" class="text-2xl">
+            <img src="/src/assets/CT logo.svg" alt="logo">
+        </a>
+        <span class="hidden md:flex gap-6">
+            <a href="#">Home</a>
+            <a href="#">Courses</a>
+            <a href="#">Blog</a>
+        </span>
+
+        <i id="hamburger" class="hgi-stroke hgi-rounded hgi-menu-01 block md:hidden text-2xl"></i>
+    </nav>
+
+    <div id="mobileNav"
+        class="hidden md:hidden backdrop-blur-sm absolute w-[95%] top-2 right-[2.5%] z-50 bg-[rgba(0,0,0,0.8)] rounded-3xl">
+        <nav class="flex flex-col px-5 py-2">
+            <span class="flex justify-between items-center mb-3 pb-6 border-b-[1px] border-gray-500">
+                <a href="#" class="text-2xl">
+                    <img src="/src/assets/CT logo.svg" alt="logo">
+                </a>
+                <i id="opened-ham" class="hgi-stroke hgi-rounded hgi-menu-11 block md:hidden text-2xl"></i>
+            </span>
+            <a href="#" class="px-4 py-2 text-xl">Home</a>
+            <a href="#" class="px-4 py-2 text-xl">Courses</a>
+            <a href="#" class="px-4 py-2 text-xl">Blog</a>
+        </nav>
+    </div>
+
+    <main class="mb-4 md:max-w-[95%] mx-auto">
+
+        <!-- Fixed Layer for Floating Icons -->
+        <div id="backgroundLayer" class="absolute w-full h-full -z-10 top-0 left-0"></div>
+
+        <!-- Background Layer for Gradient -->
+        <div id="spacing"
+            class="w-full h-[8rem] md:w-[70%] mx-auto md:text-[3rem] text-3xl flex justify-evenly items-center">
+            <i class='bx bx-code-alt text-purple-400'></i>
+            <i class="hgi-stroke hgi-rounded hgi-idea-01 text-yellow-400"></i>
+            <i class='hgi-stroke hgi-rounded hgi-mortarboard-02 text-green-400'></i>
+            <i class="hgi-stroke hgi-rounded hgi-rocket-01 text-blue-400"></i>
+        </div>
+
+        <section id="hero"
+            class="flex flex-col justify-center items-center text-center py-8 px-4 gap-[1.5rem] md:gap-[3rem]">
+            <h1 class="font-bold text-4xl md:text-[5rem]">Welcome to CT Training Centre</h1>
+            <p class="mb-1 text-gray-300 md:text-[1.25rem] tracking-[1px]">Pakur ka Apna Computer प्रशिक्षण केंद्र <br> Sikho aur
+                aage badho</p>
+            <div class="flex flex-col md:flex-row gap-2 md:gap-4">
+                <a href="#"
+                    class="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-full font-semibold text-lg inline-flex items-center hover:scale-105 duration-300 transition-all active:scale-90">Explore
+                    Courses</a>
+                <a href="#"
+                    class="border-2  border-blue-600 text-blue-200 px-8 py-4 rounded-full font-semibold text-lg inline-flex backdrop-blur-sm items-center hover:scale-105 active:scale-90 transition-all duration-300">
+                    See Placement
+                </a>
+            </div>
+        </section>
+
+        <section id="feature" class="flex flex-wrap w-fit mx-auto gap-2 md:gap-4 justify-center">
+            <span class="cards">
+                <i class="hgi-stroke hgi-rounded hgi-user-multiple-02 text-blue-400"></i>
+                <h1 class="text-xl">1000+</h1>
+                <p>Active Students</p>
+            </span>
+            <span class="cards">
+                <i class="hgi-stroke hgi-rounded hgi-award-01 text-purple-400"></i>
+                <h1 class="text-xl">95%</h1>
+                <p>Success Rate</p>
+            </span>
+            <span class="cards">
+                <i class="hgi-stroke hgi-rounded hgi-clock-01 text-green-400"></i>
+                <h1 class="text-xl">500+</h1>
+                <p>Course Hours</p>
+            </span>
+        </section>
+
+        <span class="text-center m-4">
+            <h2 class="text-center font-semibold text-[2rem] mb-1.5 md:text-[3rem]">Featured Courses</h2>
+            <p class="text-sm text-gray-500">Explore our most popular courses and <br> start you IT journey today</p>
+        </span>
+
+        <section id="explore-courses" class="swiper mySwiper w-full h-full">
+            <div class="swiper-wrapper mb-10">
+                <!-- Cards added dynamically -->
+            </div>
+            <div class="swiper-scrollbar mt-3 pt-3"></div>
+        </section>
+
+        <section class="flex justify-center items-center my-4">
+            <a href=""
+                class="bg-[rgba(255,255,255,0.1)] text-white px-8 py-4 rounded-xl font-semibold text-lg items-center hover:scale-105 transition-all active:scale-90 duration-300">Explore
+                Courses</a>
+        </section>
+    </main>
+
+    <footer class="bg-[rgba(0,0,0,0.5)] flex p-5 backdrop-blur-sm">
+        <div class="w-full md:w-fit flex flex-col md:flex-row gap-4">
+            <span class="flex flex-row items-center justify-between md:gap-4">
+                <img src="/src/assets/CT logo.svg" class="w-[8rem]" alt="logo">
+                <span>Connect with US ❤️✨</span>
+            </span>
+            <span class="flex items-center justify-between text-4xl">
+                <a href="https://www.instagram.com/cttcpkr/"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class="bx bxl-youtube"></i></a>
+                <a href="https://www.facebook.com/cttcpkr"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a
+                    href="https://wa.me/917979855840?text=Hello%2C%20I%20am%20interested%20please%20share%20course%20details">
+                    <i class="bx bxl-whatsapp"></i></a>
+            </span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/src/js/script.js"></script>
+    <script src="/src/js/course-cards.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1.2,
+            spaceBetween: 10,
+            freeMode: true, scrollbar: {
+                el: ".swiper-scrollbar",
+                hide: true,
+            },
+            breakpoints: {
+                375: {
+                    spaceBetween: 10,
+                    slidesPerView: 1.2
+                },
+                425: {
+                    spaceBetween: 10,
+                    slidesPerView: 1.25
+                },
+                640: {
+                    spaceBetween: 15,
+                    slidesPerView: 1.5
+                },
+                768: {
+                    slidesPerView: 2.2,
+                    spaceBetween: 25
+                },
+                1024: {
+                    slidesPerView: 3.3,
+                    spaceBetween: 30
+                },
+                1200: {
+                    slidesPerView: 3.5,
+                    spaceBetween: 30
+                },
+                1440: {
+                    slidesPerView: 4,
+                    spaceBetween: 30
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
