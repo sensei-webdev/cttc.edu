@@ -5,7 +5,7 @@ function appendCardsInExplore(link, img, h3, duration, level, number_of_students
     <div
         class="course-card relative w-[280px] h-[420px] rounded-2xl border-2 border-[#777] flex flex-col overflow-hidden">
         <span class="absolute top-2 right-2 bg-[rgba(0,0,0,0.5)] text-white text-center text-sm px-2 py-1 rounded-full shadow">${status}</span>
-        <img src="${img}" alt="img" class="w-full h-[180px] object-cover rounded-t-2xl">
+        <img src="${img}" alt="img" loading="lazy" class="w-full h-[180px] object-cover rounded-t-2xl">
         <div class="details flex flex-col gap-2 bg-[rgba(0,0,0,0.2)] backdrop-blur-sm p-4 flex-1 rounded-b-2xl">
             <h3 class="font-bold text-lg line-clamp-2">${h3}</h3>
             <div class="flex justify-between text-sm">
